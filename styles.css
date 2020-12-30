@@ -1,3 +1,7 @@
 html.dimbg .slide-background.present {
+	opacity: 0.4;
+}
+
+html.logoimg .slide-background.present {
 	opacity: 0.2;
 }
