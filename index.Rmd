@@ -1,0 +1,47 @@
+---
+title: "The Beatles: Covered"
+date: New Years Quiz 2020
+output:
+  revealjs::revealjs_presentation:
+    self_contained: false
+    lib_dir: libs
+    theme: black
+    css: styles.css
+    background-transition: slide
+    # template: mytemplate.html
+autosize: true
+---
+## Rules  {data-background="backgrounds/0.jpg"  data-state="dimbg"}
+
+- One point for the artist performing each cover
+
+## Question 1 {data-background="backgrounds/1.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track1.wav" type="audio/wav"></audio>
+
+## Question 2 {data-background="backgrounds/2.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track2.wav" type="audio/wav"></audio>
+
+## Question 3 {data-background="backgrounds/3.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track3.wav" type="audio/wav"></audio>
+
+## Question 4 {data-background="backgrounds/4.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track4.wav" type="audio/wav"></audio>
+
+## Question 5 {data-background="backgrounds/5.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track5.wav" type="audio/wav"></audio>
+
+## Question 6 {data-background="backgrounds/6.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track6.wav" type="audio/wav"></audio>
+
+## Question 7 {data-background="backgrounds/7.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track7.wav" type="audio/wav"></audio>
+
+## Question 8 {data-background="backgrounds/8.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track8.wav" type="audio/wav"></audio>
+
+## Question 9 {data-background="backgrounds/9.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track9.wav" type="audio/wav"></audio>
+
+## Question 10 {data-background="backgrounds/10.jpg"  data-state="dimbg"}
+<audio controls><source src="wav/track10.wav" type="audio/wav"></audio>
+
