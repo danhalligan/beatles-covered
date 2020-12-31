@@ -554,6 +554,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 
 Reveal.configure({
   keyboard: {
+    13: 'next', // go to the next slide when the ENTER key is pressed
     32: () => {
       var currentSlide = Reveal.getCurrentSlide();
       var currentVideo = currentSlide.getElementsByTagName("audio")[0];
