@@ -756,6 +756,22 @@ $if(plugin-menu)$
 $endif$
         ]
       });
+
+Reveal.configure({
+  keyboard: {
+    32: () => {
+      var currentSlide = Reveal.getCurrentSlide();
+      var currentVideo = currentSlide.getElementsByTagName("audio")[0];
+      if (currentVideo) {
+        if (currentVideo.paused == true) currentVideo.play();
+        else currentVideo.pause();
+      }
+      else {
+        Reveal.next();
+      }
+    }
+}});
+
     </script>
 $if(mathjax-url)$
   <!-- dynamically load mathjax for compatibility with self-contained -->

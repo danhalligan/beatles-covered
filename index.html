@@ -551,6 +551,22 @@ document.getElementsByTagName('head')[0].appendChild(style);
         dependencies: [
         ]
       });
+
+Reveal.configure({
+  keyboard: {
+    32: () => {
+      var currentSlide = Reveal.getCurrentSlide();
+      var currentVideo = currentSlide.getElementsByTagName("audio")[0];
+      if (currentVideo) {
+        if (currentVideo.paused == true) currentVideo.play();
+        else currentVideo.pause();
+      }
+      else {
+        Reveal.next();
+      }
+    }
+}});
+
     </script>
   <!-- dynamically load mathjax for compatibility with self-contained -->
   <script>
